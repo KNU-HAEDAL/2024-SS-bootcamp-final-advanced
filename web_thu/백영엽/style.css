@@ -1,0 +1,53 @@
+html {
+	font-size: 20px;
+}
+
+#body {
+	background-color: rgb(229, 210, 196);
+	font-family: 'Dongle', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.logo {
+	background-image: url('https://img.freepik.com/premium-photo/robotic-android-robot-thief-flying-space-galaxy-background-generative-ai_124507-79260.jpg');
+	display: flex;
+	height: 300px;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Dongle', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	color: #fffcf5;
+	text-shadow: #ead9a6 2px 2px 5px;
+}
+
+#article_col {
+	margin: 0;
+	padding: 0.3rem;
+	background-color: rgb(247, 242, 236);
+	color: rgb(0, 0, 0);
+}
+
+.txt_h1 {
+	font-size: 2rem;
+	color: rgb(82, 70, 61);
+}
+
+.txt_h3 {
+	font-size: 1.5rem;
+	color: rgb(82, 70, 61);
+}
+
+.detail {
+	margin: 0.5rem;
+	padding: 0.3rem;
+	font-size: 1rem;
+	background-color: rgb(242, 224, 212);
+}
+
+.image1 {
+	padding-right: 5%;
+}

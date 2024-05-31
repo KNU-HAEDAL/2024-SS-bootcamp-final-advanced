@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e2bde24-6671-4fa0-a294-bef4b75a0d5e" name="Changes" comment="git : mysql 설정">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/dto/user/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/dto/user/response/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="library-app" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;docker-desktop&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="docker-desktop" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2anOIgUUsEsLzHYXMHT8Ndw101q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build library-app.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LibraryAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jubokyeong/Desktop/WORKSPACE/library-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="LibraryAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="library-app.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.group.libraryapp.LibraryAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-16.0.2-corretto-16.0.2-f644763e9732-971cca82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e2bde24-6671-4fa0-a294-bef4b75a0d5e" name="Changes" comment="" />
+      <created>1704950799257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704950799257</updated>
+      <workItem from="1704950800616" duration="5809000" />
+      <workItem from="1704963030885" duration="2290000" />
+      <workItem from="1705457724344" duration="1773000" />
+      <workItem from="1705592941932" duration="34854000" />
+      <workItem from="1705994537290" duration="9986000" />
+      <workItem from="1706104861710" duration="6446000" />
+      <workItem from="1706111398216" duration="8255000" />
+      <workItem from="1706144057553" duration="2518000" />
+      <workItem from="1706148698887" duration="4878000" />
+      <workItem from="1706270210287" duration="2292000" />
+      <workItem from="1706426851189" duration="2053000" />
+      <workItem from="1706429053021" duration="1384000" />
+      <workItem from="1706430462636" duration="3590000" />
+      <workItem from="1706624984951" duration="6862000" />
+      <workItem from="1706670366981" duration="1349000" />
+      <workItem from="1706786275782" duration="5489000" />
+      <workItem from="1707415007745" duration="2639000" />
+      <workItem from="1707722232485" duration="602000" />
+      <workItem from="1707845195703" duration="2159000" />
+      <workItem from="1707847373814" duration="1324000" />
+      <workItem from="1707849256321" duration="2766000" />
+      <workItem from="1707892438809" duration="4090000" />
+      <workItem from="1707898957133" duration="1309000" />
+      <workItem from="1707921137833" duration="4892000" />
+      <workItem from="1708015724418" duration="7591000" />
+      <workItem from="1708033386706" duration="3658000" />
+      <workItem from="1709018046085" duration="871000" />
+      <workItem from="1709025877631" duration="2239000" />
+      <workItem from="1709042812548" duration="4331000" />
+      <workItem from="1709097561947" duration="1686000" />
+      <workItem from="1709436175099" duration="38000" />
+      <workItem from="1709821090584" duration="1367000" />
+      <workItem from="1709885368073" duration="2343000" />
+      <workItem from="1711621733872" duration="214000" />
+      <workItem from="1711789620365" duration="1180000" />
+      <workItem from="1712285940126" duration="33000" />
+      <workItem from="1712504769577" duration="653000" />
+      <workItem from="1712669730029" duration="1405000" />
+      <workItem from="1713082988163" duration="1463000" />
+      <workItem from="1715166291632" duration="31000" />
+      <workItem from="1715249130423" duration="1076000" />
+      <workItem from="1715675718424" duration="607000" />
+      <workItem from="1715750658488" duration="281000" />
+    </task>
+    <task id="LOCAL-00001" summary="create : library app service project">
+      <option name="closed" value="true" />
+      <created>1705996421352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705996421352</updated>
+    </task>
+    <task id="LOCAL-00002" summary="enhance : JPA 사용">
+      <option name="closed" value="true" />
+      <created>1706108969860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706108969860</updated>
+    </task>
+    <task id="LOCAL-00003" summary="enhance : delete 부분 Optional 변경&#10;Optional&lt;User&gt;로 변경하여 에러처리 코드 간편화">
+      <option name="closed" value="true" />
+      <created>1706109353739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706109353739</updated>
+    </task>
+    <task id="LOCAL-00004" summary="enhance : UserServiceV2 Transactional&#10;Transactional 설정해주고 update 함수에서 저장 부분 제외">
+      <option name="closed" value="true" />
+      <created>1706111506873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706111506873</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implement : 책 대출 / 반납 기능">
+      <option name="closed" value="true" />
+      <created>1706118444529</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706118444530</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor : User와 UserLoanHistory 연관&#10;userId가 아닌 user를 직접적으로 사용할 수 있게 리팩토링">
+      <option name="closed" value="true" />
+      <created>1706144900912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706144900912</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor : 대출, 반납 기능&#10;도메인에 비즈니스 로직 추가">
+      <option name="closed" value="true" />
+      <created>1706146642593</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706146642593</updated>
+    </task>
+    <task id="LOCAL-00008" summary="build : profile 설정">
+      <option name="closed" value="true" />
+      <created>1706626696952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706626696952</updated>
+    </task>
+    <task id="LOCAL-00009" summary="git : gitignore 설정">
+      <option name="closed" value="true" />
+      <created>1706629341339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706629341339</updated>
+    </task>
+    <task id="LOCAL-00010" summary="git : mysql 설정">
+      <option name="closed" value="true" />
+      <created>1706635078254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706635078254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create : library app service project" />
+    <MESSAGE value="enhance : JPA 사용" />
+    <MESSAGE value="enhance : delete 부분 Optional 변경&#10;Optional&lt;User&gt;로 변경하여 에러처리 코드 간편화" />
+    <MESSAGE value="enhance : UserServiceV2 Transactional&#10;Transactional 설정해주고 update 함수에서 저장 부분 제외" />
+    <MESSAGE value="implement : 책 대출 / 반납 기능" />
+    <MESSAGE value="refactor : User와 UserLoanHistory 연관&#10;userId가 아닌 user를 직접적으로 사용할 수 있게 리팩토링" />
+    <MESSAGE value="refactor : 대출, 반납 기능&#10;도메인에 비즈니스 로직 추가" />
+    <MESSAGE value="build : profile 설정" />
+    <MESSAGE value="git : gitignore 설정" />
+    <MESSAGE value="git : mysql 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="git : mysql 설정" />
+  </component>
+</project>

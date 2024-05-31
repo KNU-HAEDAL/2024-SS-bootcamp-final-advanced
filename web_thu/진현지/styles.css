@@ -1,56 +1,322 @@
-:root {
-	--primary-color: #2e6ff2;
-	--secondary-color: #8d9299;
-	--background-color: #ffffff;
-	--divider-color: #9dbe0f;
-}
-
-.profile-card {
+.property-default {
 	width: 595px;
-	background-color: var(--background-color);
-	padding: 50px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	height: 842px;
+	background-color: var(--ffffff);
+}
+
+.property-default .frame {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	top: 50px;
+	left: 50px;
+	display: inline-flex;
+	position: relative;
+}
+
+.property-default .v {
+	display: flex;
+	flex-direction: column;
+	width: 495px;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 20px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: var(--f-3f-5fa);
 	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid;
+	border-color: var(--x-2e-6ff-2main);
 }
 
-.bio,
-.introduction,
-.links {
-	margin-bottom: 20px;
+.property-default .view {
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 20px;
+	position: relative;
+	flex: 0 0 auto;
 }
 
-.photo img {
+.property-default .image {
+	position: relative;
 	width: 120px;
 	height: 120px;
-	border-radius: 60px; /* Making the photo round */
 	object-fit: cover;
 }
 
-.info,
-.personal-details,
-.links {
-	font-family: 'Kokoro-Regular', Helvetica, sans-serif;
-	font-size: 14px;
+.property-default .contents {
+	display: inline-flex;
+	gap: 12px;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	flex: 0 0 auto;
 }
 
-h1 {
-	color: var(--primary-color);
+.property-default .frame-wrapper {
+	position: relative;
+	width: 122px;
+	height: 30px;
+}
+
+.property-default .div {
+	align-items: center;
+	gap: 6px;
+	display: inline-flex;
+	position: relative;
+}
+
+.property-default .text-wrapper {
+	width: fit-content;
+	margin-top: -1px;
+	color: var(--x-2e-6ff-2main);
 	font-size: 20px;
+	line-height: normal;
+	position: relative;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	letter-spacing: 0;
 }
 
-h2 {
-	color: var(--secondary-color);
+.property-default .text-wrapper-2 {
+	width: fit-content;
+	color: var(--x-8d-9299);
 	font-size: 10px;
+	line-height: normal;
+	position: relative;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	letter-spacing: 0;
 }
 
-h3 {
-	color: var(--primary-color);
+.property-default .vector {
+	position: relative;
+	width: 315px;
+	height: 1px;
+	object-fit: cover;
+}
+
+.property-default .element {
+	width: 315px;
+	color: var(--x-121314);
+	font-size: 10px;
+	line-height: 16px;
+	position: relative;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+.property-default .contents-2 {
+	display: flex;
+	width: 315px;
+	gap: 6px;
+	padding: 16px;
+	background-color: var(--ffffff);
+	border-radius: 8px;
+	overflow: hidden;
+	border: 1px solid;
+	border-color: var(--d-9dbe-0);
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	flex: 0 0 auto;
+}
+
+.property-default .div-2 {
+	display: inline-flex;
+	height: 16px;
+	align-items: flex-start;
+	gap: 3px;
+	position: relative;
+}
+
+.property-default .icon-smile {
+	position: relative;
+	width: 12px;
+	height: 12px;
+}
+
+.property-default .text-wrapper-3 {
+	width: fit-content;
+	margin-top: -1px;
+	color: var(--x-2e-6ff-2main);
+	font-size: 10px;
+	line-height: normal;
+	position: relative;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+.property-default .contents-3 {
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 4px;
+	position: relative;
+	flex: 0 0 auto;
+}
+
+.property-default .text-wrapper-4 {
+	width: fit-content;
+	margin-top: -1px;
+	color: var(--x-121314);
+	font-size: 9px;
+	line-height: 14px;
+	white-space: nowrap;
+	position: relative;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+.property-default .text-wrapper-5 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	color: var(--x-121314);
+	font-size: 10px;
+	letter-spacing: 0;
+	line-height: 14px;
+	white-space: nowrap;
+}
+
+.property-default .div-3 {
+	display: flex;
+	flex-direction: column;
+	width: 495px;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 20px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: var(--ffffff);
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid;
+	border-color: var(--d-9dbe-0);
+}
+
+.property-default .text-wrapper-6 {
+	width: fit-content;
+	margin-top: -1px;
+	color: var(--x-2e-6ff-2main);
 	font-size: 12px;
+	line-height: normal;
+	position: relative;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	letter-spacing: 0;
 }
 
-a {
-	display: block;
-	color: var(--primary-color);
-	text-decoration: none;
-	margin-bottom: 5px;
+.property-default .img {
+	position: relative;
+	width: 455px;
+	height: 1px;
+	object-fit: cover;
+}
+
+.property-default .div-wrapper {
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 10px;
+	padding: 2px 4px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: #5c8ef226;
+}
+
+.property-default .text-wrapper-7 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	color: var(--x-2e-6ff-2main);
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 14px;
+	white-space: nowrap;
+}
+
+.property-default .p {
+	width: 455px;
+	color: var(--x-121314);
+	font-size: 10px;
+	line-height: 16px;
+	position: relative;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+.property-default .view-2 {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 20px;
+	position: relative;
+	flex: 0 0 auto;
+	background-color: var(--ffffff);
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid;
+	border-color: var(--d-9dbe-0);
+}
+
+.property-default .view-3 {
+	position: relative;
+	width: 455px;
+	height: 24px;
+	background-color: var(--f-3f-5fa);
+	border-radius: 4px;
+}
+
+.property-default .text-wrapper-8 {
+	position: absolute;
+	top: 5px;
+	left: 22px;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	color: var(--x-121314);
+	font-size: 10px;
+	letter-spacing: 0;
+	line-height: normal;
+	text-decoration: underline;
+}
+
+.property-default .link-icon {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	top: 6px;
+	left: 6px;
+}
+
+.property-default .https-github-com {
+	position: absolute;
+	top: 5px;
+	left: 22px;
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	color: var(--x-121314);
+	font-size: 10px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.property-default .span {
+	font-family: 'Kokoro-Regular', Helvetica;
+	font-weight: 400;
+	color: #121314;
+	font-size: 10px;
+	letter-spacing: 0;
+}
+
+.property-default .text-wrapper-9 {
+	text-decoration: underline;
 }

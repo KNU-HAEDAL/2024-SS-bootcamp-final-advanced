@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b526d722-d872-4954-bbda-8c1c66f0dcf4" name="변경" comment="chapter 3.Clean_Code">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.example.library-app.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/domain/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/domain/book/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/domain/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/domain/user/loanhistory/UserLoanHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/domain/user/loanhistory/UserLoanHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/dto/book/BookCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/dto/book/BookLoanRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/dto/book/BookReturnRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/service/user/UserServiceV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/build/classes/java/main/com/group/libraryapp/controller/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/build/classes/java/main/com/group/libraryapp/controller/user/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/build/classes/java/main/com/group/libraryapp/domain/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/build/classes/java/main/com/group/libraryapp/domain/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/build/classes/java/main/com/group/libraryapp/dto/user/response/UserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/build/classes/java/main/com/group/libraryapp/dto/user/response/UserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/build/classes/java/main/com/group/libraryapp/repository/user/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/build/classes/java/main/com/group/libraryapp/service/user/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/config/UserConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/config/UserConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/controller/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/controller/book/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/domain/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/dto/user/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/dto/user/response/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/repository/book/BookMemoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/repository/book/BookMySqlRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/repository/book/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/repository/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/repository/user/UserJdbcRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/service/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/service/book/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/service/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/java/com/group/libraryapp/service/user/UserServiceV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-app/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/__MACOSX/library-app">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/library-app">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/__MACOSX/library-app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/library-app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="library-app" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="library-app" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="library-app" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="library-app" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="library-app" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="library-app" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jdh7351&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e5d9e4ca-629e-4cf5-84ed-106b5adfe0c8" />
+        <option name="url" value="https://github.com/jdh7351/spring-haedal-Jeondonghwan.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2eJQtV8mVOVpGNTdYLRzRbkUYzL" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build library-app.executor": "Run",
+    "Gradle.library-app [bootRun].executor": "Run",
+    "Gradle.library-app 빌드.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.LibraryAppApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JDH/Project/abcd/spring-haedal-Jeondonghwan/library-app/library-app/src/main/java/com/group/libraryapp/domain/user",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "SQL Dialects",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.LibraryAppApplication">
+    <configuration name="library-app [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/library-app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="com.example.library-app.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.group.libraryapp.LibraryAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.library-app [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-4caba194b151-9f4ef98c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="b526d722-d872-4954-bbda-8c1c66f0dcf4" name="변경" comment="" />
+      <created>1711620416003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711620416003</updated>
+      <workItem from="1711620417085" duration="2404000" />
+      <workItem from="1711622904253" duration="1010000" />
+      <workItem from="1711869163603" duration="179000" />
+      <workItem from="1712124458684" duration="6327000" />
+      <workItem from="1712225559547" duration="6823000" />
+      <workItem from="1715216619883" duration="15321000" />
+      <workItem from="1715800868747" duration="16264000" />
+      <workItem from="1716104754858" duration="23961000" />
+    </task>
+    <task id="LOCAL-00001" summary="init: 프로젝트 설정">
+      <option name="closed" value="true" />
+      <created>1711622950580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711622950581</updated>
+    </task>
+    <task id="LOCAL-00002" summary="5. GET method /add 추가하기">
+      <option name="closed" value="true" />
+      <created>1712126054772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712126054772</updated>
+    </task>
+    <task id="LOCAL-00003" summary="6. POST API /multiply 만들어보기">
+      <option name="closed" value="true" />
+      <created>1712127729576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712127729576</updated>
+    </task>
+    <task id="LOCAL-00004" summary="7. 유저 저장 API 만들기">
+      <option name="closed" value="true" />
+      <created>1712128815044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712128815044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="8. 유저 목록 API 만들기">
+      <option name="closed" value="true" />
+      <created>1712131011417</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712131011417</updated>
+    </task>
+    <task id="LOCAL-00006" summary="8. 유저 목록 API 만들기">
+      <option name="closed" value="true" />
+      <created>1712131027121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712131027121</updated>
+    </task>
+    <task id="LOCAL-00007" summary="chapter 2. DB 사용하기">
+      <option name="closed" value="true" />
+      <created>1715250394386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715250394386</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chapter 3.Clean_Code">
+      <option name="closed" value="true" />
+      <created>1715853713465</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715853713465</updated>
+    </task>
+    <task id="LOCAL-00009" summary="chapter 3.Clean_Code">
+      <option name="closed" value="true" />
+      <created>1715853787437</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715853787437</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init: 프로젝트 설정" />
+    <MESSAGE value="5. GET method /add 추가하기" />
+    <MESSAGE value="6. POST API /multiply 만들어보기" />
+    <MESSAGE value="7. 유저 저장 API 만들기" />
+    <MESSAGE value="8. 유저 목록 API 만들기" />
+    <MESSAGE value="chapter 2. DB 사용하기" />
+    <MESSAGE value="chapter 3.Clean_Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 3.Clean_Code" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
